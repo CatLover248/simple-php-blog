@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Jun 22, 2023 at 02:17 PM
+-- Generation Time: Jun 22, 2023 at 07:15 PM
 -- Server version: 8.0.33
 -- PHP Version: 8.1.17
 
@@ -40,9 +40,10 @@ CREATE TABLE `php_docker_table` (
 
 INSERT INTO `php_docker_table` (`id`, `title`, `body`, `date_created`) VALUES
 (6, 'my-blog-post', 'I love capybaras', '2023-06-22'),
-(7, 'linux-is-cool', 'linux is cool cause yes', '2023-06-01'),
-(9, 'Cats-are-cute', 'Cats are cute cause they are cute', '2023-06-30'),
-(10, 'why-I-want-to-get-capybaras', ' Hi guys we released a new orcus rat into the new version of the front end\r\n\r\n\r\n-- The Fajurions Developers\r\n', '2013-06-01');
+(7, 'linux is cool', 'linux is cool cause yes', '2023-06-01'),
+(9, 'Cats are cute', 'Cats are cute cause they are cute', '2023-06-30'),
+(10, 'hampter', 'hampter', '2013-06-01'),
+(11, 'my blog post', 'I love capybaras', '2023-06-22');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +63,7 @@ ALTER TABLE `php_docker_table`
 -- AUTO_INCREMENT for table `php_docker_table`
 --
 ALTER TABLE `php_docker_table`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
