@@ -1,4 +1,5 @@
 # https://youtu.be/2Bxh5FNGznQ
+#on first launch ssh/cli into php:apache container and run -> docker-php-ext-install mysqli
 version: '3'
 services:
   www:

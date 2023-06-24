@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Jun 22, 2023 at 07:15 PM
+-- Generation Time: Jun 23, 2023 at 12:39 PM
 -- Server version: 8.0.33
 -- PHP Version: 8.1.17
 
@@ -39,11 +39,13 @@ CREATE TABLE `php_docker_table` (
 --
 
 INSERT INTO `php_docker_table` (`id`, `title`, `body`, `date_created`) VALUES
-(6, 'my-blog-post', 'I love capybaras', '2023-06-22'),
-(7, 'linux is cool', 'linux is cool cause yes', '2023-06-01'),
-(9, 'Cats are cute', 'Cats are cute cause they are cute', '2023-06-30'),
-(10, 'hampter', 'hampter', '2013-06-01'),
-(11, 'my blog post', 'I love capybaras', '2023-06-22');
+(1, 'my-blog-post', 'I love capybaras', '2023-06-22'),
+(2, 'linux is cool', 'linux is cool cause yes', '2023-06-01'),
+(3, 'Cats are cute', 'Cats are cute cause they are cute', '2023-06-30'),
+(4, 'hampter', 'hampter', '2013-06-01'),
+(5, 'my blog post', 'I love capybaras', '2023-06-22'),
+(6, 'testing something', 'sbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdjsbfbsdbjsdj\r\n\r\n\r\nYes', '2023-06-22'),
+(7, 'How to eat potato', 'sdshdnsjdnkjsndkjsdnskjndkjsdsds\r\ndsdjsdjksdsd\r\nd\r\nsd\r\ns\r\nd\r\nsd\r\ns\r\ngd\r\ng\r\nf\r\ngf\r\ng\r\ndg\r\n', '2023-06-14');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +65,7 @@ ALTER TABLE `php_docker_table`
 -- AUTO_INCREMENT for table `php_docker_table`
 --
 ALTER TABLE `php_docker_table`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
